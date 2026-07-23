@@ -1,0 +1,48 @@
+2026-05-12 16:31:26,929 - INFO - Inicio de ejecucion del sistema Software FJ
+2026-05-12 16:31:26,929 - INFO - Operacion 1 ejecutada correctamente: Registro valido de cliente
+2026-05-12 16:31:26,929 - ERROR - Operacion 2 fallida: Registro invalido de cliente por nombre corto. Error: El nombre del cliente debe tener minimo 3 caracteres.
+2026-05-12 16:31:26,929 - ERROR - Operacion 3 fallida: Registro invalido de cliente por correo incorrecto. Error: El correo electronico no tiene un formato valido.
+2026-05-12 16:31:26,929 - INFO - Operacion 4 ejecutada correctamente: Creacion valida de servicio de reserva de sala
+2026-05-12 16:31:26,929 - INFO - Operacion 5 ejecutada correctamente: Creacion valida de servicio de alquiler de equipo
+2026-05-12 16:31:26,929 - ERROR - Operacion 6 fallida: Creacion invalida de servicio por precio negativo. Error: El precio base del servicio debe ser mayor que cero.
+2026-05-12 16:31:26,930 - INFO - Reserva confirmada: R001
+2026-05-12 16:31:26,930 - INFO - Finalizo el intento de confirmacion de la reserva R001
+2026-05-12 16:31:26,930 - INFO - Pago procesado para reserva R001. Total: 160650.0
+2026-05-12 16:31:26,930 - INFO - Finalizo el proceso de pago de la reserva R001
+2026-05-12 16:31:26,930 - INFO - Operacion 7 ejecutada correctamente: Reserva exitosa con pago procesado
+2026-05-12 16:31:26,930 - ERROR - Error al validar servicio en reserva R002: La sala no se puede reservar por mas de 8 horas.
+2026-05-12 16:31:26,930 - INFO - Finalizo el intento de confirmacion de la reserva R002
+2026-05-12 16:31:26,930 - ERROR - Operacion 8 fallida: Reserva fallida por duracion invalida. Error: No fue posible confirmar la reserva por un error en el servicio.
+2026-05-12 16:31:26,930 - INFO - Finalizo el intento de confirmacion de la reserva R003
+2026-05-12 16:31:26,930 - ERROR - Operacion 9 fallida: Reserva fallida por servicio no disponible. Error: No se puede confirmar la reserva porque el servicio no esta disponible.
+2026-05-12 16:31:26,930 - ERROR - Error de reserva al procesar pago R004: Solo se puede procesar el pago de una reserva confirmada.
+2026-05-12 16:31:26,930 - INFO - Finalizo el proceso de pago de la reserva R004
+2026-05-12 16:31:26,930 - INFO - Operacion 10 ejecutada correctamente: Pago fallido por reserva sin confirmar
+2026-05-12 16:31:26,930 - INFO - Reserva cancelada: R001
+2026-05-12 16:31:26,930 - INFO - Operacion 11 ejecutada correctamente: Cancelacion exitosa de reserva
+2026-05-12 16:31:26,930 - ERROR - Operacion 12 fallida: Cancelacion repetida de reserva. Error: La reserva ya se encuentra cancelada.
+2026-05-12 16:31:26,930 - INFO - Fin de ejecucion del sistema Software FJ
+2026-05-12 16:33:08,263 - INFO - Inicio de ejecucion del sistema Software FJ
+2026-05-12 16:33:08,263 - INFO - Operacion 1 ejecutada correctamente: Registro valido de cliente
+2026-05-12 16:33:08,263 - ERROR - Operacion 2 fallida: Registro invalido de cliente por nombre corto. Error: El nombre del cliente debe tener minimo 3 caracteres.
+2026-05-12 16:33:08,263 - ERROR - Operacion 3 fallida: Registro invalido de cliente por correo incorrecto. Error: El correo electronico no tiene un formato valido.
+2026-05-12 16:33:08,263 - INFO - Operacion 4 ejecutada correctamente: Creacion valida de servicio de reserva de sala
+2026-05-12 16:33:08,263 - INFO - Operacion 5 ejecutada correctamente: Creacion valida de servicio de alquiler de equipo
+2026-05-12 16:33:08,263 - ERROR - Operacion 6 fallida: Creacion invalida de servicio por precio negativo. Error: El precio base del servicio debe ser mayor que cero.
+2026-05-12 16:33:08,263 - INFO - Reserva confirmada: R001
+2026-05-12 16:33:08,263 - INFO - Finalizo el intento de confirmacion de la reserva R001
+2026-05-12 16:33:08,263 - INFO - Pago procesado para reserva R001. Total: 160650.0
+2026-05-12 16:33:08,263 - INFO - Finalizo el proceso de pago de la reserva R001
+2026-05-12 16:33:08,263 - INFO - Operacion 7 ejecutada correctamente: Reserva exitosa con pago procesado
+2026-05-12 16:33:08,264 - ERROR - Error al validar servicio en reserva R002: La sala no se puede reservar por mas de 8 horas.
+2026-05-12 16:33:08,264 - INFO - Finalizo el intento de confirmacion de la reserva R002
+2026-05-12 16:33:08,264 - ERROR - Operacion 8 fallida: Reserva fallida por duracion invalida. Error: No fue posible confirmar la reserva por un error en el servicio.
+2026-05-12 16:33:08,264 - INFO - Finalizo el intento de confirmacion de la reserva R003
+2026-05-12 16:33:08,264 - ERROR - Operacion 9 fallida: Reserva fallida por servicio no disponible. Error: No se puede confirmar la reserva porque el servicio no esta disponible.
+2026-05-12 16:33:08,264 - ERROR - Error de reserva al procesar pago R004: Solo se puede procesar el pago de una reserva confirmada.
+2026-05-12 16:33:08,264 - INFO - Finalizo el proceso de pago de la reserva R004
+2026-05-12 16:33:08,264 - INFO - Operacion 10 ejecutada correctamente: Pago fallido por reserva sin confirmar
+2026-05-12 16:33:08,264 - INFO - Reserva cancelada: R001
+2026-05-12 16:33:08,264 - INFO - Operacion 11 ejecutada correctamente: Cancelacion exitosa de reserva
+2026-05-12 16:33:08,264 - ERROR - Operacion 12 fallida: Cancelacion repetida de reserva. Error: La reserva ya se encuentra cancelada.
+2026-05-12 16:33:08,264 - INFO - Fin de ejecucion del sistema Software FJ
